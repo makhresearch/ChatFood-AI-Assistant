@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.venv/
+
+# API Keys and Secrets
+.env
+
+# Databases
+db/
+*.db
+*.sqlite3
+lancedb/
+
+# Python Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Chainlit generated files
+.chainlit/
+.files/
+chainlit.md
